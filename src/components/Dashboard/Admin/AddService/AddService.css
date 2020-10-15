@@ -1,0 +1,29 @@
+.add-service-form {
+    padding: 30px;
+}
+
+.add-service-form input, .add-service-form textarea {
+    width: 40%;
+    display: block;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    outline: none;
+}
+
+.add-service-form input[type="file"] {
+    padding: 15px 0;
+}
+
+.add-service-form textarea {
+    height: 120px;
+}
+
+.add-service-form button {
+    background-color: #111430;
+    color: #fff;
+    border: none;
+    margin: 10px;
+    padding: 10px 40px;
+    display: block;
+}

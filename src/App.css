@@ -1,38 +1,118 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  color: #111430;
+}
+
+.common-heading h3 {
+  font-size: 34px;
+  font-weight: 600;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.common-heading h3 span {
+  color: #7AB259;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navigation-bar .navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 1);
+  border-color: transparent;
+  outline: none;
+}
+
+.navigation-bar .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  font-size: 24px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+  .home .header-area {
+    min-height: 450px;
+  }
+  .header-area::after {
+    display: none;
+  }
+  .banner-area {
+    margin-top: 20px;
+  }
+  .banner-text {
+    padding: 0px 20px;
+  }
+  .banner-area .banner-text h2 {
+    font-size: 37px;
+  }
+  .brand-logos {
+    margin: 20px 0px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* Small devices (landscape phones, 576px and up) */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .home .header-area {
+    min-height: 500px;
   }
-  to {
-    transform: rotate(360deg);
+  .header-area::after {
+    display: none;
+  }
+  .brand-logos {
+    margin: 20px 0px;
+  }
+  .dashboard-home .order-area input, .dashboard-home .order-area textarea {
+    width: 100%;
+  }
+  .dashboard-home .order-area input[type="number"], .dashboard-home .order-area input[type="file"] {
+    width: 30%;
+    display: inline-block;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header-area::after {
+    display: none;
+  }
+  .banner-img {
+    margin: 30px 0px;
+  }
+  .brand-logos {
+    margin: 30px 0px;
+  }
+  .dashboard-home .order-area input, .dashboard-home .order-area textarea {
+    width: 90%;
+  }
+  .dashboard-home .order-area input[type="number"], .dashboard-home .order-area input[type="file"] {
+    width: 30%;
+    display: inline-block;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .dashboard-home .order-area input, .dashboard-home .order-area textarea {
+    width: 70%;
+  }
+  .dashboard-home .order-area input[type="number"], .dashboard-home .order-area input[type="file"] {
+    width: 30%;
+    display: inline-block;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+@media (max-width: 991.98px) {
+  .navbar-nav .nav-link:last-child {
+    text-align: center;
   }
 }

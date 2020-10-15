@@ -1,0 +1,46 @@
+.login {
+    background-color: #e5e5e54d;
+    min-height: 100vh;
+}
+
+.logo img {
+    margin-top: 50px;
+    width: 250px;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 6rem 3rem;
+    border: 1px solid #ABABAB;
+    border-radius: 5px;
+}
+
+.google {
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.google img {
+    position: absolute;
+    top: 7px;
+}
+
+.google button {
+    font-weight: 500;
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    display: block;
+    margin: auto;
+    outline: none;
+}
+
+.login-form p button {
+    background-color: transparent;
+    border: none;
+    color: #3F90FC;
+    padding: 0px 5px;
+    text-decoration: underline;
+}

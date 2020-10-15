@@ -1,0 +1,19 @@
+.admin-form {
+    margin: 30px;
+}
+
+.admin-form input {
+    width: 40%;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    outline: none;
+}
+
+.admin-form button {
+    background-color: #111430;
+    color: #fff;
+    border: none;
+    margin: 10px;
+    padding: 15px 40px;
+}

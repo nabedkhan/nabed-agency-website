@@ -1,0 +1,30 @@
+.review-form {
+    padding: 30px;
+}
+
+.review-form input, .review-form textarea {
+    width: 40%;
+    display: block;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    outline: none;
+}
+
+.review-form input[type="number"], .review-form input[type="file"] {
+    width: 20%;
+    display: inline-block;
+}
+
+.review-form textarea {
+    height: 120px;
+}
+
+.review-form button {
+    background-color: #111430;
+    color: #fff;
+    border: none;
+    margin: 10px;
+    padding: 10px 40px;
+    display: block;
+}

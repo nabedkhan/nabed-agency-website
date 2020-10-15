@@ -1,0 +1,19 @@
+.header-area {
+    background-color: #FBD062;
+    min-height: 650px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-area::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 0;
+    border-right: 100vw solid #fff;
+    border-top: 150px solid transparent;
+    width: 0;
+    z-index: 0;
+}

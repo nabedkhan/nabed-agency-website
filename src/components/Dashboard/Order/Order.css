@@ -1,0 +1,30 @@
+.order-area {
+    padding: 30px;
+}
+
+.order-area input, .order-area textarea {
+    width: 40%;
+    display: block;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    outline: none;
+}
+
+.order-area input[type="number"], .order-area input[type="file"] {
+    width: 20%;
+    display: inline-block;
+}
+
+.order-area textarea {
+    height: 120px;
+}
+
+.order-area button {
+    background-color: #111430;
+    color: #fff;
+    border: none;
+    margin: 10px;
+    padding: 10px 40px;
+    display: block;
+}

@@ -1,0 +1,17 @@
+.service-list-card {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.service-list-card img {
+    width: 100px;
+}
+
+.service-list-card button {
+    float: right;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 3px;
+    outline: none;
+}

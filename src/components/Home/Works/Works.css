@@ -1,0 +1,25 @@
+.works-area {
+    background-color: #111430;
+    padding: 100px 0;
+}
+
+.slide {
+    padding: 10px;
+    outline: none;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #FBD062;
+}
+
+.slick-dots li {
+    margin: 0;
+}
+
+.slick-dots li button:before {
+    opacity: .7;
+    color: #242A65;
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,26 @@
+.table-area {
+    margin: 30px;
+    background-color: #fff;
+}
+
+.table-area thead {
+    background-color: #F5F6FA;
+}
+
+.table-area .Dropdown-control:hover {
+    box-shadow: none;
+}
+
+.table-area .Dropdown-control {
+    border: none;
+    border-radius: 0;
+    color: #FF4545;
+    cursor: pointer;
+    outline: none;
+    padding: 8px 10px 8px 10px;
+}
+
+.table-area .Dropdown-arrow {
+    right: 0px;
+    top: 17px;
+}

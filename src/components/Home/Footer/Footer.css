@@ -1,0 +1,35 @@
+.footer-area {
+    background-color: #FBD062;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.footer-text h2 {
+    font-weight: 700;
+    font-size: 34px;
+    letter-spacing: .5px;
+}
+
+.footer-text p {
+    letter-spacing: .7px;
+}
+
+.footer-form input, .footer-form textarea {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    margin: 5px;
+}
+
+.footer-form textarea {
+    height: 150px;
+}
+
+.footer-form button {
+    background-color: #111430;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    padding: 10px 40px;
+}

@@ -1,0 +1,28 @@
+.navbar {
+    padding: .5rem 0;
+}
+
+.navbar-brand img {
+    width: 200px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #111430;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar-nav .nav-link:last-child {
+    background-color: #111430;
+    color: #fff;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-link:last-child:hover {
+    color: #fff;
+}

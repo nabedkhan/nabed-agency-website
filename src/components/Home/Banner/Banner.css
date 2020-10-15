@@ -1,0 +1,19 @@
+.banner-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.banner-text p {
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+}
+
+.banner-text a {
+    background-color: #111430;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.6rem 2rem;
+    border-radius: 5px;
+    display: inline-block;
+}

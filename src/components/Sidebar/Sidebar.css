@@ -1,0 +1,16 @@
+.sidebar {
+    padding: 25px 50px;
+}
+
+.sidebar-logo img {
+    width: 180px;
+}
+
+.menu-item h5 {
+    font-weight: 400;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: #000000;
+}

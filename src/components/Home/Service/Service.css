@@ -1,0 +1,31 @@
+.service-area {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    transition: all 0.5s;
+}
+
+.service-area a {
+    text-decoration: none;
+}
+
+.service-card {
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.service-card:hover {
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+    width: 100px;
+}
+
+.service-card h4 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.service-card h4, .service-card p {
+    color: #111430;
+}
