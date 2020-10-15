@@ -3,6 +3,9 @@ import { useState } from 'react';
 import Sidebar from '../../Sidebar/Sidebar';
 import DashboardHeader from '../DashboardHeader/DashboardHeader';
 import './Review.css';
+import jwt_decode from "jwt-decode";
+
+
 
 const Review = () => {
     const [review, setReview] = useState({});
@@ -10,10 +13,12 @@ const Review = () => {
     if (submitSuccess) {
         setTimeout(() => setSubmitSuccess(false), 4000);
     }
+    const decoded = jwt_decode(sessionStorage.getItem('token'));
+    const userPicture = decoded.picture;
     const handleBlur = (event) => {
         const newReview = { ...review };
         newReview[event.target.name] = event.target.value;
-        newReview.image = sessionStorage.getItem('userPicture');
+        newReview.image = userPicture;
         setReview(newReview);
     }
 

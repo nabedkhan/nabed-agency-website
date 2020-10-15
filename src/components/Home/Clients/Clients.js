@@ -3,29 +3,6 @@ import ClientCard from '../ClientCard/ClientCard';
 import './Clients.css';
 
 const Clients = () => {
-    // const feedbacks = [
-    //     {
-    //         id: 1,
-    //         name: 'Nash Patrik',
-    //         designation: 'CEO, Manpol',
-    //         review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas.',
-    //         image: 'https://i.postimg.cc/R0PCqhh8/customer-1.png'
-    //     },
-    //     {
-    //         id: 2,
-    //         name: 'Miriam Barron',
-    //         designation: 'CEO, Manpol',
-    //         review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas.',
-    //         image: 'https://i.postimg.cc/63g9LPdf/customer-2.png'
-    //     },
-    //     {
-    //         id: 3,
-    //         name: 'Bria Malone',
-    //         designation: 'CEO, Manpol',
-    //         review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas.',
-    //         image: 'https://i.postimg.cc/vBcYny6m/customer-3.png'
-    //     }
-    // ]
 
     const [feedbacks, setFeedbacks] = useState([]);
     useEffect(() => {

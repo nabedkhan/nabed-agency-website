@@ -30,15 +30,14 @@ const Login = () => {
 
     const idToken = () => {
         firebaseIdToken()
-            .then(token => {
-                const decoded = jwt_decode(token);
-                sessionStorage.setItem('token', decoded.exp);
-                sessionStorage.setItem('userPicture', decoded.picture);
+            .then(tokenId => {
+                // const decoded = jwt_decode(token);
+                // sessionStorage.setItem('tokenEmail', decoded.email);
+                // sessionStorage.setItem('userPicture', decoded.picture);
+                sessionStorage.setItem('token', tokenId);
                 history.replace(from);
             })
     }
-
-    // console.log(user);
 
     return (
         <div className="login">
