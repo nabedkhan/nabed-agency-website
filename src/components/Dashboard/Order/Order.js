@@ -22,7 +22,7 @@ const Order = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
 
-        fetch('http://localhost:5000/orders', {
+        fetch('https://cryptic-tor-66942.herokuapp.com/orders', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(orderInfo)

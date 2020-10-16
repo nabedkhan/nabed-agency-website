@@ -26,7 +26,7 @@ const AddService = () => {
         formData.append('name', serviceInfo.name);
         formData.append('body', serviceInfo.body);
 
-        fetch('http://localhost:5000/newService', {
+        fetch('https://cryptic-tor-66942.herokuapp.com/newService', {
             method: 'POST',
             body: formData
         })

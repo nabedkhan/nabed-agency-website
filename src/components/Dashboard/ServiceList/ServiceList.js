@@ -10,7 +10,7 @@ const ServiceList = () => {
     const [serviceList, setServiceList] = useState([]);
     const { loggedInUser } = useContext(UserContext);
     useEffect(() => {
-        fetch(`http://localhost:5000/service?email=${loggedInUser.email}`, {
+        fetch(`https://cryptic-tor-66942.herokuapp.com/service?email=${loggedInUser.email}`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

@@ -13,7 +13,7 @@ const MakeAdmin = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        fetch('http://localhost:5000/makeAdmin', {
+        fetch('https://cryptic-tor-66942.herokuapp.com/makeAdmin', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ email: adminEmail })

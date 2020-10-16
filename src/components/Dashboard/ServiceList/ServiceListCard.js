@@ -4,7 +4,7 @@ const ServiceListCard = ({ service }) => {
     // const [services, setServices] = useState([]);
     // const [image, setImage] = useState({});
     // useEffect(() => {
-    //     fetch('http://localhost:5000/serviceList')
+    //     fetch('https://cryptic-tor-66942.herokuapp.com/serviceList')
     //         .then(response => response.json())
     //         .then(data => setServices(data))
     // }, [service._id]);

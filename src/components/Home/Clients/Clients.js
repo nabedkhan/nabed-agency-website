@@ -6,7 +6,7 @@ const Clients = () => {
 
     const [feedbacks, setFeedbacks] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/reviews')
+        fetch('https://cryptic-tor-66942.herokuapp.com/reviews')
             .then(response => response.json())
             .then(data => setFeedbacks(data))
     }, [])

@@ -25,7 +25,7 @@ const Review = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
 
-        fetch('http://localhost:5000/newReview', {
+        fetch('https://cryptic-tor-66942.herokuapp.com/newReview', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(review)

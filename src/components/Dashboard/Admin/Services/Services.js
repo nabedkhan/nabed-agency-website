@@ -10,7 +10,7 @@ const Services = () => {
     const options = ['Pending', 'On going', 'Done'];
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/allServices')
+        fetch('https://cryptic-tor-66942.herokuapp.com/allServices')
             .then(response => response.json())
             .then(data => {
                 setServices(data);
