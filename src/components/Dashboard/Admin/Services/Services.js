@@ -15,7 +15,9 @@ const Services = () => {
             .then(data => {
                 setServices(data);
             })
-    }, [])
+    }, []);
+
+
     return (
         <div className="add-service">
             <div className="container-fluid">
@@ -26,6 +28,7 @@ const Services = () => {
                     <div className="col-xl-10 col-lg-9 col-md-8 px-0"
                         style={{ backgroundColor: '#E5E5E5', height: '100vh' }}>
                         <DashboardHeader name="All Service List" />
+
                         <div className="table-area">
                             <table className="table">
                                 <thead>

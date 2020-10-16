@@ -53,7 +53,7 @@ const Order = () => {
                     type="text"
                     name="service"
                     onBlur={handleBlur}
-                    placeholder="service"
+                    placeholder="Your service"
                     defaultValue={name}
                 />
                 <textarea

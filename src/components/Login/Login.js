@@ -5,7 +5,6 @@ import google from '../../images/google.png';
 import './Login.css';
 import { firebaseIdToken, signInWithGoogle } from '../../firebase/firebase';
 import { UserContext } from '../../App';
-import jwt_decode from "jwt-decode";
 
 const Login = () => {
     const { setLoggedInUser } = useContext(UserContext);
@@ -31,9 +30,6 @@ const Login = () => {
     const idToken = () => {
         firebaseIdToken()
             .then(tokenId => {
-                // const decoded = jwt_decode(token);
-                // sessionStorage.setItem('tokenEmail', decoded.email);
-                // sessionStorage.setItem('userPicture', decoded.picture);
                 sessionStorage.setItem('token', tokenId);
                 history.replace(from);
             })

@@ -33,7 +33,7 @@ const Sidebar = () => {
             <div className="menu-list mt-5">
                 {
                     !adminUser && <>
-                        <Link to={`/dashboard/order/${name}`} className="menu-item d-flex align-items-center mb-3">
+                        <Link to="/dashboard" className="menu-item d-flex align-items-center mb-3">
                             <FiShoppingCart style={{ fontSize: '27px' }} />
                             <p className="mb-0 ml-2">Order</p>
                         </Link>
