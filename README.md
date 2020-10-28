@@ -1,19 +1,27 @@
 
 # Creative Agency Website
-o Live Demo: https://nabed-agency.firebaseapp.com
+Live Demo: https://nabed-agency.firebaseapp.com
+
 
 ## Overview
-This is a fully responsive and dynamic serivce provide website. 
-In this, I also include admin and user Dashboard. 
-Admin can handle this website dynamically.
-Used MongoDB Database for read and write operation.
+1. This is a fully responsive and dynamic serivce provide website. 
+2. In this, I also include admin and user Dashboard. 
+3. Admin can handle this website dynamically.
+4. Used MongoDB Database for read and write operation.
+
 
 ## Technology Used
-o Front End Side: Html, Css, Bootstrap, Javascript, React.
-o Authentication: Firebase Login With Google Authentication
-o Back End Side: NodeJS, ExpressJS & MongoDB
-o Live Demo: https://nabed-agency.firebaseapp.com
-o Code: github.com/nabedkhan/nabed-agency-website
+1. Front End Side: Html, Css, Bootstrap, Javascript, React.
+2. Authentication: Firebase Login With Google Authentication
+3. Back End Side: NodeJS, ExpressJS & MongoDB
+4. Live Demo: https://nabed-agency.firebaseapp.com
+5. Code: github.com/nabedkhan/nabed-agency-website
+
+
+
+
+
+
 
 In the project directory, you can run:
 
